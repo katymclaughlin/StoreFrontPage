@@ -70,6 +70,11 @@ nav li a:hover {
     color: #C64322;
     background-color: rgba(252,251,243,0.75);
 }
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
 section#aboutus {
     width: 400px;
     float: right;
@@ -88,19 +93,29 @@ section#aboutus {
     margin-right: auto;
     width: 50%;
   }
+  section#order {
+    width: 400px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 1.5em 3em 3.0em 1.5em;
+    padding: 1.7em 3em 2.0em 1.7em;
+    border-left: #7f797b solid 5px;
+   }
 
 section #shop {
     background-color: rgba(252,251,243,0.7);
-    margin: 0 0 2.0em;
-    padding: 1.5em  0 2.0em 1.5em;
+    margin: 0 0 2.0em 2em;
+    padding: 1.5em  2em 2.0em 1.5em;
     display: inline-block;
     border-radius: 2em;
-    box-shadow: 1px 1px 5px #777;
+    box-shadow: 1px 1px 5px #827b7b;
 }
-section div.bracelet{
+section div.panel{
     float: left;
     position: relative;
-    width: 275px;
+    width: 125px;
     margin: 0 0.5em 2.0em 3em;
     padding: 1.0em;
     background-color: #fff;
